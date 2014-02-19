@@ -1,0 +1,34 @@
+---
+:source:
+  :path: test
+  :file: test_CircularBuffer.c
+:successes:
+- :test: test_CreateBuffer_WORK_PROPERLY
+  :line: 10
+  :message: ''
+- :test: test_add_SHOULD_ADD_ONE_NUMBER
+  :line: 28
+  :message: ''
+- :test: test_add_SHOULD_ADD_ONE_NUMBER_AND_WRAP_OVER_TO_BEGINING
+  :line: 41
+  :message: ''
+- :test: test_add_SHOULD_NOT_ADD_IF_BUFFER_IS_FULL
+  :line: 56
+  :message: ''
+- :test: test_Remove_SHOULD_REMOVE_THE_FIRST_INPUT_NUMBER
+  :line: 85
+  :message: ''
+- :test: test_Removeall_SHOULD_REMOVE_ALL_THE_DATA_INSIDE_THE_BUFFER
+  :line: 115
+  :message: ''
+- :test: test_GetLength_SHOULD_RETURN_THE_CURRENT_LENGTH_OF_THE_BUFFER
+  :line: 152
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 7
+  :passed: 7
+  :failed: 0
+  :ignored: 0
+:stdout: []
